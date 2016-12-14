@@ -9,8 +9,8 @@ span.each(function(index, element) {
 
 var paragraphs = $('p');
 paragraphs.each(function(index,element) {
-	var button = '<button class="btn" data-tmp="' + index + '">Poznaj indeks elementu</button>'
-	$(element).append(button)
+	var button = '<button class="btn" data-tmp="' + index + '">Poznaj indeks elementu</button>';
+	$(element).append(button);
 });
 
 $('button').click(function() {
